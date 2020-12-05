@@ -47,6 +47,7 @@ int Player1Plays() // This function is to take inputs from Player 1 Only
         {
             printf("\n value is already consumed by %s please chose different value \n",Player2);
             Player1Plays();
+            return 0;
         }
 
     }
@@ -58,6 +59,7 @@ int Player1Plays() // This function is to take inputs from Player 1 Only
         {
             printf("\n value is already consumed by %s please chose different value \n",Player2);
             Player1Plays();
+            return 0;
         }
     }
     else if (choice == 3)
@@ -68,6 +70,7 @@ int Player1Plays() // This function is to take inputs from Player 1 Only
         {
             printf("\n value is already consumed by %s please chose different value \n ",Player2);
             Player1Plays();
+            return 0;
         }
     }
     else if (choice == 4)
@@ -78,6 +81,7 @@ int Player1Plays() // This function is to take inputs from Player 1 Only
         {
             printf("\n value is already consumed by %s please chose different value \n",Player2);
             Player1Plays();
+            return 0;
         }
     }
     else if (choice == 5)
@@ -88,6 +92,7 @@ int Player1Plays() // This function is to take inputs from Player 1 Only
         {
             printf("\n value is already consumed by %s please chose different value ",Player2);
             Player1Plays();
+            return 0;
         }
     }
     else if (choice == 6)
@@ -98,6 +103,7 @@ int Player1Plays() // This function is to take inputs from Player 1 Only
         {
             printf("\n value is already consumed by %s please chose different value \n",Player2);
             Player1Plays();
+            return 0;
         }
     }
     else if (choice == 7)
@@ -108,6 +114,7 @@ int Player1Plays() // This function is to take inputs from Player 1 Only
         {
             printf("\n value is already consumed by %s please chose different value \n",Player2);
             Player1Plays();
+            return 0;
         }
     }
     else if (choice == 8)
@@ -118,6 +125,7 @@ int Player1Plays() // This function is to take inputs from Player 1 Only
         {
             printf("\n value is already consumed by %s please chose different value \n",Player2);
             Player1Plays();
+            return 0;
         }
     }
     else if (choice == 9)
@@ -128,6 +136,7 @@ int Player1Plays() // This function is to take inputs from Player 1 Only
         {
             printf("\n value is already consumed by %s please chose different value \n",Player2);
             Player1Plays();
+            return 0;
         }
     }
     count++;
@@ -149,7 +158,7 @@ int Player2Plays() // This function is to take inputs from Player 2 Only
         {
             printf("value is already consumed by %s please chose different value \n",Player1);
             Player2Plays();
-            //return;
+            return 0;
         }
 
     }
@@ -161,6 +170,7 @@ int Player2Plays() // This function is to take inputs from Player 2 Only
         {
             printf("\n value is already consumed by %s please chose different value \n",Player1);
             Player2Plays();
+            return 0;
         }
     }
     else if (choice == 3)
@@ -171,6 +181,7 @@ int Player2Plays() // This function is to take inputs from Player 2 Only
         {
             printf("\n value is already consumed by %s please chose different value \n",Player1);
             Player2Plays();
+            return 0;
         }
     }
     else if (choice == 4)
@@ -181,6 +192,7 @@ int Player2Plays() // This function is to take inputs from Player 2 Only
         {
             printf("\n value is already consumed by %s please chose different value \n",Player1);
             Player2Plays();
+            return 0;
         }
     }
     else if (choice == 5)
@@ -191,6 +203,7 @@ int Player2Plays() // This function is to take inputs from Player 2 Only
         {
             printf("\n value is already consumed by %s please chose different value \n",Player1);
             Player2Plays();
+            return 0;
         }
     }
     else if (choice == 6)
@@ -201,6 +214,7 @@ int Player2Plays() // This function is to take inputs from Player 2 Only
         {
             printf("\n value is already consumed by %s please chose different value \n",Player1);
             Player2Plays();
+            return 0;
         }
     }
     else if (choice == 7)
@@ -211,6 +225,7 @@ int Player2Plays() // This function is to take inputs from Player 2 Only
         {
             printf("\n value is already consumed by %s please chose different value \n",Player1);
             Player2Plays();
+            return 0;
         }
     }
     else if (choice == 8)
@@ -221,6 +236,7 @@ int Player2Plays() // This function is to take inputs from Player 2 Only
         {
             printf("\n value is already consumed by %s please chose different value \n",Player1);
             Player2Plays();
+            return 0;
         }
     }
     else if (choice == 9)
@@ -231,6 +247,7 @@ int Player2Plays() // This function is to take inputs from Player 2 Only
         {
             printf("\n value is already consumed by %s please chose different value \n",Player1);
             Player2Plays();
+            return 0;
         }
     }
     count++;
@@ -283,3 +300,5 @@ If you enter the field that is already consumed by the other player then the out
 This bug need to be fixed
 
 */
+
+// Bug 1 Resolved 
